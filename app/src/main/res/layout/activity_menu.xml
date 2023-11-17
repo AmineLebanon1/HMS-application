@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img21"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Menu">
+
+        <TextView
+            android:layout_width="137dp"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/png"
+            android:layout_marginVertical="30dp"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"
+            android:text="Add Patient"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnView"
+            android:layout_gravity="center"
+            android:text="View All"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSearch"
+            android:layout_gravity="center"
+            android:text="Search"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDelete"
+            android:layout_gravity="center"
+            android:text="Delete"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEdit"
+            android:layout_gravity="center"
+            android:text="Payment"
+            />
+
+    </LinearLayout>
+</ScrollView>
